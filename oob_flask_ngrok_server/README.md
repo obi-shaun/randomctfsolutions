@@ -4,9 +4,8 @@ I often find myself spinning up an out of band web server as part of a solution 
 
 I use this often when dealing with SSRF or as a destination to exfiltrate data, etc. I set a * CORS header in case the challenge involves a javascript request coming cross origin from a web browser.
 
-You'll need to have ngrok set up.
+Dependencies are defined in the requirements.txt file.
 
-`$ source venv/bin/activate` <br />
-`$ python haxor_server.py`
+`$ python3 haxor_server.py`
 
 It prints the ngrok address to the console. I then copy that into payloads as necessary. You'll see the incoming requests get logged to the console as they come in.
