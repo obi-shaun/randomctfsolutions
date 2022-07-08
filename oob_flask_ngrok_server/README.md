@@ -9,4 +9,4 @@ You'll need to have ngrok set up.
 `$ source venv/bin/activate` <br />
 `$ python haxor_server.py`
 
-It prints the address for your ngrok server to the console. I then copy that into payloads as necessary.
+It prints the ngrok address to the console. I then copy that into payloads as necessary.
