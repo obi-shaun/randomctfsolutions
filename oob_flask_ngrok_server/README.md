@@ -6,6 +6,7 @@ I use this often when dealing with SSRF or as a destination to exfiltrate data, 
 
 You'll need to have ngrok set up.
 
+`$ source venv/bin/activate`
 `$ python haxor_server.py`
 
 It prints the address for your ngrok server to the console. I then copy that into payloads as necessary.
